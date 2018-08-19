@@ -1,8 +1,23 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--TODO: project requirement, CoordinatorLayout-->
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="8dp"
+        >
+
+    <!-- TODO: Auguest 19,  <android.support.design.widget.CollapsingToolbarLayout-->
+
+    </android.support.design.widget.AppBarLayout>
+
+
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
@@ -46,4 +61,19 @@
         </android.support.v7.widget.Toolbar>
     </FrameLayout>
 
-</FrameLayout>
+
+    <!--TODO: project requirement, FAB button-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:elevation="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_arrow_back"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+    <!--android:contentDescription="@string/action_share"-->

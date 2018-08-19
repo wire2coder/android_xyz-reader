@@ -17,12 +17,16 @@
 
 <resources>
 
+    <!-- for the FAB button -->
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light">-->
+    <!--</style>-->
 
 </resources>
