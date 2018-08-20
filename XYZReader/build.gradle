@@ -15,7 +15,8 @@ repositories {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    // removing error
+//    buildToolsVersion "25.0.2"
 
     defaultConfig {
         minSdkVersion 21
@@ -24,14 +25,14 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:$androidSupportVersion"
-    compile "com.android.support:support-v13:$androidSupportVersion"
-    compile "com.android.support:appcompat-v7:$androidSupportVersion"
-    compile "com.android.support:palette-v7:$androidSupportVersion"
-    compile "com.android.support:recyclerview-v7:$androidSupportVersion"
-    compile "com.android.support:cardview-v7:$androidSupportVersion"
-    compile 'com.squareup.okhttp3:okhttp:3.1.2'
-    compile files('libs/volley.jar')
+    implementation "com.android.support:support-v4:$androidSupportVersion"
+    implementation "com.android.support:support-v13:$androidSupportVersion"
+    implementation "com.android.support:appcompat-v7:$androidSupportVersion"
+    implementation "com.android.support:palette-v7:$androidSupportVersion"
+    implementation "com.android.support:recyclerview-v7:$androidSupportVersion"
+    implementation "com.android.support:cardview-v7:$androidSupportVersion"
+    implementation 'com.squareup.okhttp3:okhttp:3.1.2'
+    implementation files('libs/volley.jar')
 
 //    for the FAB button
     implementation 'com.android.support:design:25.3.0'
