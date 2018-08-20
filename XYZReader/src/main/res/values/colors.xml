@@ -6,8 +6,6 @@
     <color name="theme_primaryDark">#0971B2</color>
     <color name="theme_accent">#FF0000</color>
 
-    <color name="photo_placeholder">#CC4A14</color>
-    <color name="ltgray">#8b8787</color>
     <color name="text_title">#ffffff</color>
     <color name="text_description">#000000</color>
 

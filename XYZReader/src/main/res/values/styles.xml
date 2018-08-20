@@ -8,11 +8,6 @@
         <item name="colorAccent">@color/theme_accent</item>
     </style>
 
-    <!--<style name="AppTheme.NoActionBar">-->
-    <!--<item name="windowActionBar">false</item>-->
-    <!--<item name="windowNoTitle">true</item>-->
-    <!--</style>-->
-
     <!-- inherit color from Theme.Bacon -->
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -20,10 +15,5 @@
     <style name="ExpandedTitleTextAppearance" parent="@android:style/TextAppearance.Large">
         <item name="android:textStyle">bold</item>
     </style>
-
-    <!-- styling stuff -->
-    <!--<style name="Theme.Bacon.Detail">-->
-    <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
-    <!--</style>-->
 
 </resources>
